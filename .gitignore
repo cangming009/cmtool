@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+target/
+src-tauri/target/
+
+# Model files — never commit large binary model files
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.mlmodel
+*.mlpackage
+models/
+downloads/
+.cache-models/
+
+# Local storage — never commit user data or secrets
+cmtool-data/
+*.local.json
+local.config.json
+secrets.json
+*.key
+*.pem
+*.token
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+tmp/
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Rust build artifacts
+src-tauri/*.dmg
+src-tauri/*.deb
+src-tauri/*.AppImage

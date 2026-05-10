@@ -1,0 +1,33 @@
+{
+  "identifier": "default",
+  "description": "Default capabilities for cmtool",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "dialog:default",
+    "dialog:allow-open",
+    "dialog:allow-save",
+    {
+      "identifier": "fs:allow-read",
+      "allow": [{ "path": "${HOME}/.claude/**" }]
+    },
+    {
+      "identifier": "fs:allow-write",
+      "allow": [{ "path": "${HOME}/.claude/**" }]
+    },
+    {
+      "identifier": "fs:allow-exists",
+      "allow": [{ "path": "${HOME}/.claude/**" }]
+    },
+    {
+      "identifier": "fs:allow-stat",
+      "allow": [{ "path": "${HOME}/.claude/**" }]
+    },
+    {
+      "identifier": "fs:allow-mkdir",
+      "allow": [{ "path": "${HOME}/.claude/**" }]
+    },
+    "opener:default",
+    "process:default"
+  ]
+}
