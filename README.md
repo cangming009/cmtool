@@ -1,6 +1,31 @@
-# cmtool
+<p align="center">
+  <img alt="cmtool" src="docs/images/icon.png" width="140">
+</p>
 
-Desktop toolkit for local AI coding workflows — model search and download, Claude usage analytics, and developer configuration management.
+<h1 align="center">cmtool</h1>
+<p align="center"><b>Desktop toolkit for local AI coding workflows</b><br>Model search and download, Claude usage analytics, and developer configuration management.</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/license-Apache%202.0-blue" alt="License">
+  <img src="https://img.shields.io/badge/node-%3E%3D20-green" alt="Node >= 20">
+  <img src="https://img.shields.io/badge/pnpm-%3E%3D8-orange" alt="pnpm >= 8">
+  <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey" alt="Platform">
+</p>
+
+<p align="center">
+  <a href="#features">Features</a> ·
+  <a href="#install">Install</a> ·
+  <a href="#development">Development</a> ·
+  <a href="#build">Build</a> ·
+  <a href="#acknowledgments">Acknowledgments</a>
+</p>
+
+<p align="center">
+  <b>English</b> ·
+  <a href="README.zh.md">中文</a>
+</p>
+
+---
 
 Built with **Tauri v2** + **React 18** + **TypeScript** + **TailwindCSS** + **Rust**.
 
