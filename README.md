@@ -201,4 +201,8 @@ The `.gitignore` is configured to block all of the above. CI does not require an
 
 ## License
 
-MIT
+Apache 2.0
+
+## Acknowledgments
+
+This project was inspired by [omlx](https://github.com/jundot/omlx) — a desktop tool for managing local Ollama models.
